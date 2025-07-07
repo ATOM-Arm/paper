@@ -2,7 +2,7 @@
 
 Autores: Rouhollah Rahmatizadeh, Pooya Abolghasemi, Ladislau Bölöni, Sergey Levine
 
-Ano: 2017 (arxiv); publicado em maio de 2018 no ICRA 2018 
+Ano: 2017 (arXiv); publicado em maio de 2018 no ICRA 2018 
 
 
 # 🧭 1. Objetivo e Contexto
