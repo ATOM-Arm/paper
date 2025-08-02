@@ -21,28 +21,6 @@ Exemplo: AVR para aplicações simples, ARM para projetos com mais poder de proc
 Estudo de caso prático
 Ex: “Por que usamos o Arduino Uno (AVR) ou ESP32 (Xtensa/ARM-like) no ATOM Project?”
 
-### 2. Comparação de Diferentes Sensores para Robótica
-Objetivo: Analisar sensores comuns como ultrassônicos, infravermelhos, LIDAR, e câmeras, focando em precisão, custo e aplicações.
-🛠️ Tópicos sugeridos:   
-Tipos de sensores e suas tecnologias
-Ultrassônicos, infravermelhos, LIDAR, câmeras RGB e RGB
-D, sensores de distância a laser.
-Comparativo de precisão e alcance
-Tabela comparativa de precisão, alcance, custo e complexidade de integração.
-Exemplo: HC-SR04 (ultrassônico) vs VL53L0X (laser) vs LIDAR Lite.
-
-### 3. Qual arquitetura se adapta melhor a projetos educacionais de robótica?
-Objetivo: Analisar qual arquitetura de microcontrolador é mais adequada para projetos educacionais, considerando facilidade de uso, custo e recursos.
-🧠 Tópicos sugeridos:
-- Facilidade de uso para iniciantes
-  - Exemplo: Arduino (AVR) é mais amigável que STM32 (ARM).
-- Custo e disponibilidade
-    - Comparar preços de placas populares (Arduino, ESP32, Raspberry Pi Pico).
-- Recursos e comunidade
-    - Ecossistema de bibliotecas, tutoriais, e suporte.
-- Exemplos de projetos educacionais
-- Exemplo: Projetos com Arduino, ESP32, ou Raspberry Pi Pico em cursos de robótica.
-
 
 ___
 
@@ -68,10 +46,9 @@ Integração com projetos de robótica
 Ex: Qual biblioteca usamos no ATOM Project, por quê, e como?
 
 
-### 2. Uso de detecção de gestos com MediaPipe em controle de braços robóticos
+### 2. Uso de detecção de gestos em controle de braços robóticos
 
-
-### 3. Reconhecimento de objetos com YOLOv8 em plataformas embarcadas: desempenho e limitações
+### 3. Reconhecimento de objetos com YOLOv8 ( ou semelhantes ) em plataformas embarcadas: desempenho e limitações
 
 ### 4. Comparação de Frameworks de Desenvolvimento de Software para Robótica
 Objetivo: Analisar frameworks como ROS, V-REP, Webots e outros, focando em usabilidade, recursos e integração com hardware.
