@@ -1,7 +1,8 @@
-### 1. Controle por Feedback Visual em Braços Robóticos InMoov: Fundamentos, Desafios e Aplicações com Visão Computacional
+# 1. Controle por Feedback Visual em Braços Robóticos InMoov: Fundamentos, Desafios e Aplicações com Visão Computacional
+
 O controle por feedback visual é uma técnica essencial na robótica, especialmente em braços robóticos como o InMoov. Este artigo explora os fundamentos, desafios e aplicações dessa abordagem, destacando a importância da visão computacional.
 
-#### Sugestões para o Artigo
+## Sugestões para o Artigo
 
 - Apresentar exemplos práticos de implementação do controle por feedback visual no InMoov.
 - Discutir algoritmos de visão computacional mais utilizados, como detecção de objetos e rastreamento de marcadores.

@@ -1,9 +1,9 @@
 
-### 📷 1. Comparação de Bibliotecas de Visão Computacional para Robótica (InMoov)
+# 📷 1. Comparação de Bibliotecas de Visão Computacional para Robótica (InMoov)
 
 **Objetivo:** Analisar e comparar bibliotecas populares de visão computacional — como OpenCV, cvzone, Mediapipe, entre outras — considerando sua aplicação em projetos de robótica, especialmente no contexto do braço robótico InMoov.
 
-#### 📌 Tópicos sugeridos:
+## 📌 Tópicos sugeridos:
 
 - **Visão geral das bibliotecas:** Propósito, linguagem principal (Python, C++ etc.), maturidade e comunidade.
 - **Facilidade de uso e curva de aprendizado:** Exemplo: cvzone como wrapper amigável do OpenCV; OpenCV puro oferece mais flexibilidade, porém é mais complexo.
