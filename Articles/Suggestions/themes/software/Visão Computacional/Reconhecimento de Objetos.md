@@ -1,0 +1,1 @@
+### 3. Reconhecimento de objetos com YOLOv8 ( ou semelhantes ) em plataformas embarcadas: desempenho e limitações
