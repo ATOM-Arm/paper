@@ -1,13 +1,23 @@
-# Sugestões de Revistas para Publicação
+# Seleção para publicação de artigos
 
-## Revistas Nacionais
+## Portais de Revistas para publicação:
+[Portal Sucupira](https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf)
+
+[Portal Latindex](https://latindex.org/latindex/)
+
+## Sugestões de Revistas para Publicação
+
+
+
+
+### Revistas Nacionais
 - [**Revista Eletrônica de Iniciação Científica (REIC)**](https://seer.ufrgs.br/reic)
 - [**Revista de Gestão e Engenharia (RGE) - FATEC Assis**](https://fatecassis.cps.sp.gov.br/revista-cientifica-rge/)
 - [**Revista de Computação, Educação e Tecnologia (ReCET) - PUC-SP**](https://revistas.pucsp.br/ReCET)
 - [**Revista Brasileira de Ensino de Ciência e Tecnologia (RBECT) - UTFPR**](https://revistas.utfpr.edu.br/rbect)
 
 
-## Revistas Internacionais
+### Revistas Internacionais
 - [**Science Robotics (AAAS)**](https://www.science.org/journal/scirobotics)
 - [**Journal of Educational Technology & Society**](https://www.jstor.org/journal/eductechsoci)
 - [**International Journal of Robotics Research**](https://journals.sagepub.com/home/ijr)
