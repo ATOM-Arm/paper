@@ -1,0 +1,167 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Revisão de Artigos para Contextualização do Projeto ATOM\\(Robótica e Visão Computacional)}
+\author{Enzo Ribas}
+\date{2025}
+
+\maketitle
+\section*{Artigo 1: Computer Vision Enabled Smart Surveillance for Urban Traffic Control}
+
+\subsection*{Objetivo do Artigo}
+O trabalho propõe e avalia um sistema inteligente de monitoramento de tráfego urbano baseado em visão computacional e aprendizado profundo, integrado com IoT e computação em borda. O objetivo é detectar, classificar e rastrear veículos e pedestres em tempo real, otimizando o fluxo viário e melhorando a segurança.
+
+\subsection*{Metodologia}
+
+O sistema é estruturado em múltiplas camadas:
+\begin{itemize}
+    \item \textbf{Aquisição de Dados:} Câmeras de alta resolução, sensores IoT e GPS coletam informações sobre tráfego, velocidade e ocupação de faixas.
+    \item \textbf{Processamento e Armazenamento:} Dados pré-processados na nuvem e na borda para limpeza, extração de atributos e atualização de modelos.
+    \item \textbf{Predição e Decisão:} Modelos de Machine Learning (Random Forest, SVM, CNNs, LSTMs) preveem congestionamento e ajustam sinais dinamicamente.
+    \item \textbf{Controle Inteligente de Semáforos:} Uso de Reinforcement Learning e lógica fuzzy para ajustar o tempo de sinais com prioridade para veículos de emergência.
+    \item \textbf{Interface e Monitoramento:} Painéis para autoridades e aplicativos móveis para usuários.
+\end{itemize}
+
+\textbf{Tecnologias-chave:}
+\begin{itemize}
+    \item YOLO, SSD e Faster R-CNN para detecção de objetos.
+    \item Edge computing para reduzir latência em 40\%.
+    \item LPR (License Plate Recognition) para fiscalização automática.
+    \item V2I (Vehicle-to-Infrastructure) para priorização de transporte público e emergências.
+\end{itemize}
+
+\subsection*{Resultados Principais}
+
+\begin{itemize}
+    \item \textbf{Acurácia de detecção:} Veículos (95,2\%), pedestres (93,8\%), placas (88,9\%).
+    \item \textbf{Previsão de congestionamento (LSTM):} 89,7\% de acurácia.
+\end{itemize}
+
+\textbf{Impactos positivos:}
+\begin{itemize}
+    \item Redução do índice de congestionamento em até 50\%.
+    \item Redução do tempo médio de espera de 120s para 65s.
+    \item Aumento de 25--40\% no fluxo de veículos.
+    \item Resposta a emergências 50\% mais rápida.
+    \item Processamento de vídeo em 25 FPS, permitindo operação em tempo real.
+\end{itemize}
+
+\subsection*{Contribuição para o Conhecimento}
+
+O artigo demonstra como a fusão de visão computacional de última geração, IA adaptativa, IoT e computação distribuída pode criar sistemas de controle urbano altamente eficientes.
+
+\textbf{Aplicações para o projeto ATOM:}
+\begin{itemize}
+    \item Uso de edge computing e modelos leves (YOLO, SSD) é crucial para robótica embarcada.
+    \item Integração de múltiplos sensores e comunicação V2I pode inspirar a integração do braço com redes de sensores para feedback em tempo real.
+    \item O enfoque em robustez sob condições adversas (variação de luz, clima, oclusão) é diretamente aplicável à operação de robôs em ambientes não controlados.
+\end{itemize}
+
+\subsection*{Limitações e Perspectivas Futuras}
+
+\begin{itemize}
+    \item Dependência da qualidade das câmeras e iluminação.
+    \item Desafios com oclusão em tráfego denso.
+    \item Necessidade de integração com visão térmica/3D para ambientes complexos.
+\end{itemize}
+
+\textbf{Próximos passos sugeridos:}
+\begin{itemize}
+    \item Uso de detecção 3D para maior precisão.
+    \item Integração com infrared/thermal imaging para operação noturna.
+    \item Aprendizado federado para melhorar os modelos sem comprometer a privacidade.
+    \item Expansão para monitorar transporte multimodal.
+\end{itemize}
+
+\subsection*{Conclusão}
+
+O estudo é um exemplo claro de aplicação de tecnologias emergentes em um problema real, apresentando resultados expressivos. Para o ATOM, serve como prova de que a combinação de visão computacional, IA e processamento distribuído pode gerar sistemas robustos e escaláveis --- algo que pode ser replicado em braços robóticos para ambientes industriais ou educacionais.
+
+\bigskip
+
+\section*{Artigo 2: Computer Vision Applications in Defense and Medical Imaging}
+
+\subsection*{Objetivo do Artigo}
+
+O estudo investiga como a Visão Computacional, integrada a Inteligência Artificial, Deep Learning e Computação em Borda, está transformando setores críticos:
+
+\begin{itemize}
+    \item \textbf{Saúde:} diagnóstico por imagem, cirurgia assistida por robôs e descoberta de medicamentos.
+    \item \textbf{Defesa:} vigilância autônoma, reconhecimento de ameaças, drones inteligentes e manutenção preditiva.
+\end{itemize}
+
+A proposta é explorar avanços, desafios e tendências futuras, destacando a interseção entre automação inteligente e tomada de decisão em tempo real.
+
+\subsection*{Metodologia e Abordagem}
+
+O artigo é estruturado em seis seções:
+\begin{enumerate}
+    \item \textbf{Revisão de Literatura:} Consolida pesquisas recentes sobre aplicação de CNNs, IA generativa, agentes RAG (Retrieval-Augmented Generation) e integração com Big Data.
+    \item \textbf{Aplicações em Saúde:} Desde análise automatizada de raios-X, tomografias e ressonâncias até cirurgia robótica com feedback visual em tempo real.
+    \item \textbf{Aplicações em Defesa:} Uso em UAVs, reconhecimento facial, veículos terrestres autônomos e integração multimodal de sensores.
+    \item \textbf{Desafios:} Viés de dados, privacidade, ``caixa-preta'' dos modelos e limitações de desempenho em borda.
+    \item \textbf{Tendências Futuras:} IA explicável, integração de dados multimodais e colaborações civis-militares para acelerar a adoção.
+    \item \textbf{Conclusão:} Reforça que a visão computacional está evoluindo para um papel central na segurança e saúde globais.
+\end{enumerate}
+
+\subsection*{Resultados e Exemplos Destacados}
+
+\textbf{Medicina:}
+\begin{itemize}
+    \item CNNs para segmentação de tumores e detecção precoce de doenças como retinopatia diabética e câncer de pele.
+    \item Edge AI para diagnóstico portátil em áreas remotas, sem depender da nuvem.
+    \item Visão computacional em robótica cirúrgica, aumentando precisão e reduzindo erros.
+\end{itemize}
+
+\textbf{Defesa:}
+\begin{itemize}
+    \item Drones autônomos para reconhecimento e mapeamento de áreas hostis.
+    \item Sistemas de visão para mísseis guiados e veículos autônomos militares.
+    \item Reconhecimento facial com grandes bases biométricas, aumentando acurácia e reduzindo falsos positivos.
+    \item Manutenção preditiva de equipamentos via inspeção visual.
+\end{itemize}
+
+\textbf{Tecnologias-chave:}
+\begin{itemize}
+    \item IA generativa e agentes RAG para simulação e planejamento de cenários militares.
+    \item Integração multimodal (imagem, áudio, sensores ambientais) para aumentar consciência situacional.
+\end{itemize}
+
+\subsection*{Contribuição para o Conhecimento}
+
+O trabalho reforça que visão computacional não é mais um recurso isolado, mas parte de ecossistemas inteligentes com impacto direto na tomada de decisão crítica.
+
+\textbf{Paralelos para o projeto ATOM:}
+\begin{itemize}
+    \item Abordagem multimodal pode ser aplicada a braços robóticos que integrem câmeras, sensores de força e feedback háptico.
+    \item Edge computing garante resposta em tempo real mesmo com hardware embarcado.
+    \item Técnicas de IA explicável e tratamento de dados sensíveis são fundamentais para aplicações em ambientes acadêmicos e industriais.
+\end{itemize}
+
+\subsection*{Limitações e Desafios}
+
+\begin{itemize}
+    \item Dependência de dados de qualidade para evitar viés.
+    \item Necessidade de explicabilidade em decisões críticas.
+    \item Restrições de processamento em dispositivos de borda com recursos limitados.
+    \item Questões éticas e legais, especialmente em defesa e dados médicos.
+\end{itemize}
+
+\subsection*{Perspectivas Futuras}
+
+\begin{itemize}
+    \item IA Explicável para aumentar confiança em decisões médicas e militares.
+    \item Sistemas Multimodais combinando visão, áudio e sensores diversos.
+    \item Colaboração Civil-Militar para acelerar a inovação e aumentar a eficiência.
+    \item Prompt Engineering + IA Generativa para adaptar sistemas em tempo real.
+\end{itemize}
+
+\subsection*{Conclusão}
+
+O artigo posiciona a visão computacional como um pilar tecnológico estratégico para o futuro da saúde e da defesa. A integração de deep learning, edge computing e IA generativa cria sistemas mais rápidos, precisos e adaptáveis, mas exige atenção a ética, privacidade e robustez. Para projetos como o ATOM, esta referência mostra o potencial de criar soluções robóticas inteligentes que operem com alta precisão e segurança em cenários complexos.
+
+\end{document}
